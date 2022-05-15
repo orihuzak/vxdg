@@ -1,0 +1,14 @@
+h1. xdg.v
+Make XDG Base Directory easy to use
+
+h2. Functions
+* config_path
+** return @$HOME/.config/[app]/[file]@
+** or @$XDG_CONFIG_HOME/[app]/[file]@
+* data_dir
+** return @$HOME/.local/share@
+** or @$XDG_DATA_HOME@
+* data_path
+** return @$HOME/.local/share/[app]/[file]@
+** or @$XDG_DATA_HOME/[app]/[file]@
+
