@@ -1,4 +1,4 @@
-module xdg
+module vxdg
 
 import os
 
